@@ -1,1 +1,1 @@
-# purescript-indexed-effect
+# purescript-indexed-aff
