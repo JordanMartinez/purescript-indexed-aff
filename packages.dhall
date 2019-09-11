@@ -123,6 +123,13 @@ let upstream =
 
 let overrides = {=}
 
-let additions = {=}
+let additions =
+    { indexed-effect =
+        { dependencies =
+            [ "effect", "prelude", "psci-support", "indexed-monad" ]
+        , repo = "https://github.com/JordanMartinez/purescript-indexed-effect.git"
+        , version = "master"
+        }
+    }
 
 in  upstream // overrides // additions
